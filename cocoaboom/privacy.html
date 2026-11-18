@@ -65,9 +65,9 @@
 
       <p>
         This policy describes how Chocello Games (“we,” “us”) handles information in the Cocoa Boom
-        app for Android (package <code>com.chocello.cocoaboom</code>). The app is built to work
-        fully offline. We do not run ads, we do not sell in-app purchases in this version, and we
-        do not operate user accounts.
+        app for Android and iOS (package / Bundle ID
+        <code>com.chocello.cocoaboom</code>). The app is built to work fully offline. We do not run
+        ads, we do not sell in-app purchases in this version, and we do not operate user accounts.
       </p>
 
       <h2>Information we collect</h2>
@@ -95,23 +95,26 @@
         <li>Theme preference</li>
       </ul>
       <p>
-        This data never leaves the device through our app. Android Auto Backup / cloud backup of
-        app data is disabled for Cocoa Boom. Deleting the app (or clearing app storage) removes
-        local data. We cannot recover it for you.
+        This data never leaves the device through our app. On Android, Auto Backup / cloud backup of
+        app data is disabled for Cocoa Boom. On iOS, we do not use iCloud for game saves; local data
+        may still be included in a full device backup that you control. Deleting the app (or
+        clearing app storage on Android) removes local data. We cannot recover it for you.
       </p>
 
       <h2>Permissions</h2>
       <p>
-        Release builds request vibration only, for optional in-game haptics you can turn off in
-        Settings. The app does not request internet, storage, camera, microphone, contacts, or
-        location access.
+        Release builds may use optional in-game haptics you can turn off in Settings (Android
+        vibration permission where required; iOS Taptic Engine). The app does not request internet,
+        storage, camera, microphone, contacts, or location access, and it does not use tracking
+        (IDFA / App Tracking Transparency) for our own purposes.
       </p>
 
       <h2>Internet access</h2>
       <p>
         Gameplay, audio, and saves work without a network connection. The release app is not
-        designed to contact our servers and does not declare the Android <code>INTERNET</code>
-        permission.
+        designed to contact our servers. On Android it does not declare the <code>INTERNET</code>
+        permission. On iOS, App Transport Security remains in force; we do not require network
+        access for play.
       </p>
 
       <h2>Children</h2>
@@ -130,15 +133,15 @@
         define those terms.
       </p>
       <p>
-        You can remove local app data at any time by uninstalling Cocoa Boom or clearing the app’s
-        storage in Android settings.
+        You can remove local app data at any time by uninstalling Cocoa Boom, or on Android by
+        clearing the app’s storage in system settings.
       </p>
 
       <h2>Third parties</h2>
       <p>
-        If you download Cocoa Boom from Google Play, Google’s privacy policy applies to that
-        download and to any information Google collects as the store operator. We do not receive
-        a copy of your Google Account details from gameplay.
+        If you download Cocoa Boom from Google Play or the Apple App Store, the store operator’s
+        privacy policy applies to that download and to any information the store collects. We do
+        not receive a copy of your Google or Apple Account details from gameplay.
       </p>
 
       <h2>Changes</h2>
